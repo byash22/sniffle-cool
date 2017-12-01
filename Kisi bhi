@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Oil Pipeline Robot Crawler</title>
+  <style>
+
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ccc; 
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+}
+#input {
+        float: right;
+        padding: 18px;
+      }
+
+ .nav1 {
+
+    float: right;
+    max-width: 100px;
+    padding-right: 50px;
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer {
+  margin-left: 10%;
+}
+article {
+	  margin-right: 170px;
+    border-right: 1px solid gray;
+    padding: 20px;
+    overflow: hidden;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+
+     <script>
+      function w3_open() {
+        document.getElementById("main").style.marginLeft = "25%";
+        document.getElementById("mySidebar").style.width = "25%";
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("openNav").style.display = 'none';
+      }
+      function w3_close() {
+        document.getElementById("main").style.marginLeft = "0%";
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("openNav").style.display = "inline-block";
+      }
+
+      
+    </script>
+</head> 
+<body>
+  <header>
+  <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar">
+    <button class="w3-bar-item w3-button w3-large"
+    onclick="w3_close()">Close &times;</button>
+    <a href="file:///Users/yashbhardwaj/Desktop/Project/Hyderabad.html#" class="w3-bar-item w3-button">Hyderabad</a>
+    <a href="file:///Users/yashbhardwaj/Desktop/Project/Vijaywada.html#" class="w3-bar-item w3-button">Vijaywada</a>
+    <a href="file:///Users/yashbhardwaj/Desktop/Project/Vizag.html#" class="w3-bar-item w3-button">Vizag</a>
+    <a href="http://ulcrobotics.com/products/large-vgc-live-gas-main-pipeline-inspection-crawler/" class="w3-bar-item w3-button">Crawler Robot</a>
+  </div>
+    <div id="main" class="w3-blue" align="left">
+    <button id="openNav" class="w3-button w3-xlarge" onclick="w3_open()">&#9776;</button>
+
+    <div id="input" class="w3-container">
+       <form action="http://www.google.com/search" class="navbar-form navbar-left" method="get" name="searchform" target="blank">
+          <input name="sitesearch" type="hidden" value="">
+          <input autocomplete="on" class="form-controls search" name="q" placeholder="" required="required" type="text">
+            <button class="button" type="submit">Search</button>
+          </form></div>
+  <h1><center>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspOil pipeline Crawler Robot</center></h1>
+  </div>
+  
+  </header>
+  
+
+  <nav class="nav1">
+
+	  <a href="https://www.facebook.com/profile.php?id=100021977852560" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/byash2299" class="fa fa-twitter"></a><br>
+<a href="https://mail.google.com" class="fa fa-google"></a><br>
+<a href="https://in.linkedin.com/" class="fa fa-linkedin"></a><br>
+<a href="https://www.instagram.com/byash.22/" class="fa fa-instagram"></a>  
+         </nav>
+<article>
+      <button class="accordion"><h2>The Energy Vision</h2></button>
+<div class="panel">
+    	<p>Welcome to the world of IndianOil, an integrated energy major with presence in almost all the streams of oil, gas, petrochemicals and alternative energy sources; a world of high-calibre people, state-of-the-art technologies and cutting-edge R&D; a world of best practices, quality-consciousness and transparency; and a world where energy in all its forms is tapped most responsibly and delivered to the consumers most affordably.</p></div>
+
+ <button class="accordion"><h2>Taking the Lead to Fuel India's Energy Needs</h2></button>
+<div class="panel">
+      <font size="4">
+      <p>As The Energy of India, IndianOil accounts for nearly half of India's petroleum products market share, with sales of 83.5 million tonnes in 2016-17. Over 35% national refining capacity and 71% downstream sector pipelines throughput capacity are with IndianOil. What's more, the IndianOil Group owns and operates 11 of India's 23 refineries, with a combined refining capacity of 80.7 million metric tonnes per annum (MMTPA). They led the industry in keeping its commitment to supply cleaner, 100% BS-IV compliant automotive fuels across the country from 1st April, 2017. </p></font></div>
+
+      <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+</script>
+    
+  <style>
+      #map {
+        height: 500px;
+        width:90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+      }
+    
+    </style>
+    <centre>
+    <div id="floating-panel">
+      <style>
+      #floating-panel {
+        margin-top: 5%;
+        margin-left: 5%;
+      }
+    </style>
+    <b>Start: </b>
+    <select id="start">
+    <option value="hyderabad">Hyderabad</option>
+      <option value="vijaywada">Vijaywada</option>
+      <option value="vizag">Vizag</option>
+    </select>
+    <b>End: </b>
+    <select id="end">
+      <option value="hyderabad">Hyderabad</option>
+      <option value="vijaywada">Vijaywada</option>
+      <option value="vizag">Vizag</option>
+    </select>
+    </div></centre>
+    <center><div id="map"></div></center>
+    <script>
+      function initMap() {
+        var directionsService = new google.maps.DirectionsService;
+        var directionsDisplay = new google.maps.DirectionsRenderer;
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 7,
+          center: {lat: 17.3850, lng: 78.4867}
+        });
+        directionsDisplay.setMap(map);
+
+        var onChangeHandler = function() {
+          calculateAndDisplayRoute(directionsService, directionsDisplay);
+        };
+        document.getElementById('start').addEventListener('change', onChangeHandler);
+        document.getElementById('end').addEventListener('change', onChangeHandler);
+      }
+
+      function calculateAndDisplayRoute(directionsService, directionsDisplay) {
+        directionsService.route({
+          origin: document.getElementById('start').value,
+          destination: document.getElementById('end').value,
+          travelMode: 'DRIVING'
+        }, function(response, status) {
+          if (status === 'OK') {
+            directionsDisplay.setDirections(response);
+          } else {
+            window.alert('Directions request failed due to ' + status);
+          }
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAN8X6He0DCJgZFdmYKmcnSktgE1XhWJo&callback=initMap">
+    </script>
+	</article>
+
+  <div class="form">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">India</option>
+      <option value="canada">England</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+
+   </div>
+    <footer>
+    <script language="javascript">
+            function divideNumbers()
+            {
+                var vall = 622;
+                var val2 = parseInt (document.getElementById("value2").value);
+                var ansD = document.getElementById("answer");
+                ansD.value = 622/val2;
+            }
+    </script>
+    <font size="3" color="white" >Enter number of robots</p1> = <input type="text" id="value2" name="value2" value="Number of robots"/>
+      <input type="button" name="submit" value="click here" onclick="javascript:divideNumbers()"/>
+      Answer = <input type="text" id="answer" name="answer" value="Time taken by robots"/>
+      <br><br>
+</footer>
+<div class="container" align="center">
+  <font color="black">Copyright © 2017 Yash: All rights reserved </font>
+</div>
+  </div>
+</body>
+</html>
