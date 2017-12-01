@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Oil Pipeline Robot Crawler</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script>
+    function myMap() {
+        var uluru = {lat: 16.5062, lng: 80.6480};
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 12,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script>
+      function w3_open() {
+        document.getElementById("main").style.marginLeft = "25%";
+        document.getElementById("mySidebar").style.width = "25%";
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("openNav").style.display = 'none';
+      }
+      function w3_close() {
+        document.getElementById("main").style.marginLeft = "0%";
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("openNav").style.display = "inline-block";
+      }
+    </script>
+  </head>
+
+<body>
+  <!-- Sidebar -->
+ <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar">
+    <button class="w3-bar-item w3-button w3-large"
+    onclick="w3_close()">Close &times;</button>
+    <a href="file:///Users/yashbhardwaj/Desktop/Project/Hyderabad.html#" class="w3-bar-item w3-button">Hyderabad</a>
+    <a href="file:///Users/yashbhardwaj/Desktop/Project/Vijaywada.html#" class="w3-bar-item w3-button">Vijaywada</a>
+    <a href="file:///Users/yashbhardwaj/Desktop/Project/Vizag.html#" class="w3-bar-item w3-button">Vizag</a>
+    <a href="http://ulcrobotics.com/products/large-vgc-live-gas-main-pipeline-inspection-crawler/" class="w3-bar-item w3-button">Crawler Robot</a>
+  </div>
+  <div id="main">
+
+  <div class="w3-blue">
+    <button id="openNav" class="w3-button w3-blue w3-xlarge" onclick="w3_open()">&#9776;</button>
+    <div class="w3-container">
+       <form action="http://www.google.com/search" class="navbar-form navbar-left" method="get" name="searchform" target="blank">
+        <div class="input-group" align="right">
+          <input name="sitesearch" type="hidden" value="">
+          <input autocomplete="on" class="form-controls search" name="q" placeholder="" required="required" type="text">
+        </div>
+          <div align="right">
+            <button class="button" type="submit">Search</button>
+          </div></form>
+      <a href="file:///Users/yashbhardwaj/Desktop/Project/home%20page.html#" style="text-decoration: none !important;">
+      <i class="material-icons w3-xxxlarge">home</i>
+      </a>
+      <center><h1>Oil pipeline Crawler Robot</h1></center>
+    </div>
+  </div>
+
+  
+  <div id="content" class="w3-container" >
+    
+    <div id="main">
+      <h1>Vijaywada</h1>
+      <p> HPCL's 570-km long product pipeline from Visakhapatnam to Secunderabad has become operational since the middle of March. The pipeline will carry petrol, diesel, kerosene and naphtha from HPCL's Vizag refinery to different parts of Andhra Pradesh. In fact, the 350-km long stretch from Visakhapatnam to Vijayawada was commissioned in May 1998 with a designed capacity of 4 million tonnes. The extension of the pipeline up to Secunderabad involved an additional 223 km of pipeline with an intermediate tap-off-cum-booster station at Suryapet and the final receiving station at Ghatkesar on the outskirts of Hyderabad. Between Visakhapatnam and Vijayawada, there is a terminal at Rajamundry. <br>
+
+The movement of throughput between Visakhapatnam and Vijayawada has touched 3.20 million tonnes in the last fiscal. The movement through the entire stretch of Visakhapatnam-Secunderabad pipeline is expected to go up to 5.50 million tonnes by 2007-08 <br>
+
+Work on the GAIL's pipeline alongside the HPCL products pipeline is on full swing. After the completion of the project, distribution of LPG from HPCL's Vizag refinery in the state will improve significantly. HPCL's LPG market share in the state is about 46 per cent at present. </p>
+    </div>
+  </div>
+  <center>
+    <div id="map" style="width:90%;height:500px;background:white;">
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAN8X6He0DCJgZFdmYKmcnSktgE1XhWJo&callback=myMap"></script>
+    </div>
+  </center>
+  <div id="footer" style="text-align:right;padding-right:5%;"> Copyright © 2017 Yash</div>
+  </div>
+  </body>
+</html>

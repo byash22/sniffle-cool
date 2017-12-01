@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Oil Pipeline Robot Crawler</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script>
+    function initMap() {
+        var Hyderabad = {lat: 17.43535125, lng: 78.40525605};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: Hyderabad
+        });
+        var marker = new google.maps.Marker({
+          position: Hyderabad,
+          map: map
+        });
+        var contentString = '<div id="content">'
+              '<div id="siteNotice">'</div>'
+              <h1 id="firstHeading" class="firstHeading">Hyderabad</h1>
+              '<div id ="bodyContent">'
+              '<p> <b>Oil Pipeline Hyderabad</b>,Indian Oil Corporation Ltd. operates a network of about 12,848 km long crude oil, petroleum product and gas pipelines with a throughput capacity of 93.7 million metric tonnes per annum of oil and 9.5 million metric standard cubic meter per day of gas. Cross-country pipelines are globally recognised as the safest, cost-effective, energy-efficient and environment-friendly mode for transportation of crude oil and petroleum products.</p>'
+                  
+        var infowindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+
+        var marker = new google.maps.Marker({
+          position: Hyderabad,
+          map: map,
+          title: 'Oil Pipeline Hyderabad'
+        });
+        marker.addListener('click', function() {
+          infowindow.open(map, marker);
+        });
+      }
+    </script>
+     <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAN8X6He0DCJgZFdmYKmcnSktgE1XhWJo&callback=initMap">
+    </script>
+
+    <script>
+      function w3_open() {
+        document.getElementById("main").style.marginLeft = "25%";
+        document.getElementById("mySidebar").style.width = "25%";
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("openNav").style.display = 'none';
+      }
+      function w3_close() {
+        document.getElementById("main").style.marginLeft = "0%";
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("openNav").style.display = "inline-block";
+      }
+    </script>
+  </head>
+
+<body>
+  <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar">
+    <button class="w3-bar-item w3-button w3-large"
+    onclick="w3_close()">Close &times;</button>
+    <a href="file:///Users/yashbhardwaj/Desktop/Project/Hyderabad.html#" class="w3-bar-item w3-button">Hyderabad</a>
+    <a href="file:///Users/yashbhardwaj/Desktop/Project/Vijaywada.html#" class="w3-bar-item w3-button">Vijaywada</a>
+    <a href="file:///Users/yashbhardwaj/Desktop/Project/Vizag.html#" class="w3-bar-item w3-button">Vizag</a>
+    <a href="http://ulcrobotics.com/products/large-vgc-live-gas-main-pipeline-inspection-crawler/" class="w3-bar-item w3-button">Crawler Robot</a>
+  </div>
+  <div id="main">
+
+  <div class="w3-blue">
+    <button id="openNav" class="w3-button w3-blue w3-xlarge" onclick="w3_open()">&#9776;</button>
+    <div class="w3-container">
+       <form action="http://www.google.com/search" class="navbar-form navbar-left" method="get" name="searchform" target="blank">
+        <div class="input-group" align="right">
+          <input name="sitesearch" type="hidden" value="">
+          <input autocomplete="on" class="form-controls search" name="q" placeholder="" required="required" type="text">
+        </div>
+          <div align="right">
+            <button class="button" type="submit">Search</button>
+          </div></form>
+      <a href="file:///Users/yashbhardwaj/Desktop/Project/home%20page.html#" style="text-decoration: none !important;">
+      <i class="material-icons w3-xxxlarge">home</i>
+      </a>
+       <center><h1>Oil pipeline Crawler Robot</h1></center>
+    </div>
+  </div>
+
+  
+  <div id="content" class="w3-container">
+
+    <div id="main">
+      <h2>Oil Pipelines Hyderabad</h2>
+      <p> Indian Oil Corporation Ltd. operates a network of about 12,848 km long crude oil, petroleum product and gas pipelines with a throughput capacity of 93.7 million metric tonnes per annum of oil and 9.5 million metric standard cubic meter per day of gas. Cross-country pipelines are globally recognised as the safest, cost-effective, energy-efficient and environment-friendly mode for transportation of crude oil and petroleum products.  </p>
+    </div>
+  </div>
+  <center>
+    <div id="map" style="width:90%;height:500px;background:white;">
+    </div>
+  </center>
+  <div id="footer" style="text-align:right;padding-right:5%;"> Copyright © 2017 Yash</div>
+  </div>
+  </body>
+</html>
